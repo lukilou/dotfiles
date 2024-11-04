@@ -88,6 +88,20 @@
         done
             '';
 
+      system.defaults = {
+        dock.autohide = true;
+        dock.persistent-apps = [
+          "/Applications/Google\ Chrome.app"
+          "/Applications/iTerm.app"
+          "${pkgs.obsidian}/Applications/Obsidian.app"
+        ];
+
+        finder.FXPreferredViewStyle = "clmv";
+        loginwindow.GuestEnabled = false;
+        NSGlobalDomain.AppleICUForce24HourTime = true;
+        NSGlobalDomain.KeyRepeat = 22;
+      };
+
       # Auto upgrade nix package and the daemon service.
       services.nix-daemon.enable = true;
       # nix.package = pkgs.nix;
