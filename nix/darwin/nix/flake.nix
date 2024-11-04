@@ -48,6 +48,7 @@
         casks = [
           "hammerspoon"
           "firefox"
+          "google-chrome"
           "iina"
           "the-unarchiver"
           "vlc"
