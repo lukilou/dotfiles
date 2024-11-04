@@ -43,6 +43,7 @@
         enable = true;
         brews = [
           "mas"
+          "zsh-syntax-highlighting"
         ];
         casks = [
           "hammerspoon"
@@ -51,6 +52,7 @@
           "the-unarchiver"
           "vlc"
           "audacity"
+          "docker"
         ];
         masApps = {
           "Telegram" = 747648890;
