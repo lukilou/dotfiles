@@ -57,6 +57,8 @@
           "Windows RDP" = 1295203466;
         };
         onActivation.cleanup = "zap";
+        onActivation.autoUpdate = true;
+        onActivation.upgrade = true;
       };
 
       fonts.packages = [
