@@ -56,6 +56,7 @@
           "vlc"
           "audacity"
           "docker"
+          "calibre"
         ];
         masApps = {
           "Telegram" = 747648890;
@@ -102,7 +103,13 @@
         finder.FXPreferredViewStyle = "clmv";
         loginwindow.GuestEnabled = false;
         NSGlobalDomain.AppleICUForce24HourTime = true;
-        NSGlobalDomain.KeyRepeat = 22;
+        NSGlobalDomain.KeyRepeat = 2;
+        NSGlobalDomain.InitialKeyRepeat = 15;
+      };
+
+      system.keyboard = {
+        enableKeyMapping = true;
+        remapCapsLockToControl = true;
       };
 
       # Auto upgrade nix package and the daemon service.
