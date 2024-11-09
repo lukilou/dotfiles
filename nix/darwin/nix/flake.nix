@@ -24,6 +24,8 @@
           pkgs.emacs
           pkgs.obsidian
           pkgs.tmux
+          # TODO: enable after calibre is downloadable from homebrew
+          #pkgs.calibre
           
           # Homebrew packages
           #pkgs.asdf
@@ -56,7 +58,6 @@
           "vlc"
           "audacity"
           "docker"
-          #"calibre"
         ];
         masApps = {
           "Telegram" = 747648890;
