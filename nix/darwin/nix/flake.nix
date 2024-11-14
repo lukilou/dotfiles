@@ -58,6 +58,7 @@
           "docker"
           "signal"
           "djview"
+          "yacreader"
           # TODO: enable after calibre is downloadable from homebrew
           #"calibre"
         ];
@@ -111,8 +112,8 @@
       };
 
       system.keyboard = {
-        enableKeyMapping = true;
-        remapCapsLockToControl = true;
+        #enableKeyMapping = true;
+        #remapCapsLockToControl = true;
       };
 
       # Auto upgrade nix package and the daemon service.
