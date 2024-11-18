@@ -62,6 +62,8 @@
           # Find out if it's possible to controll remotes
           #"transmission"
           "dotnet-sdk"
+          "mono-mdk"
+          "transmission-remote-gui"
           # TODO: enable after calibre is downloadable from homebrew
           #"calibre"
         ];
