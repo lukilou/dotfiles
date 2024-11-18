@@ -59,6 +59,9 @@
           "signal"
           "djview"
           "yacreader"
+          # Find out if it's possible to controll remotes
+          #"transmission"
+          "dotnet-sdk"
           # TODO: enable after calibre is downloadable from homebrew
           #"calibre"
         ];
