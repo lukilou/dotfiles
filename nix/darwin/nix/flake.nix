@@ -22,7 +22,6 @@
           pkgs.mkalias
           pkgs.neovim
           pkgs.emacs
-          pkgs.obsidian
           pkgs.tmux
           
           # Homebrew packages
@@ -65,6 +64,7 @@
           # TODO: enable after calibre is downloadable from homebrew
           #"calibre"
           "utm"
+          "obsidian"
         ];
         masApps = {
           "Telegram" = 747648890;
@@ -104,7 +104,7 @@
         dock.persistent-apps = [
           "/Applications/Google\ Chrome.app"
           "/Applications/iTerm.app"
-          "${pkgs.obsidian}/Applications/Obsidian.app"
+          #"${pkgs.obsidian}/Applications/Obsidian.app"
           "/System/Applications/Launchpad.app"
         ];
 
