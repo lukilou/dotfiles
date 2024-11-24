@@ -59,13 +59,12 @@
           "signal"
           "djview"
           "yacreader"
-          # Find out if it's possible to controll remotes
-          #"transmission"
           "dotnet-sdk"
           "mono-mdk"
-          "transmission-remote-gui"
+          "qbittorrent"
           # TODO: enable after calibre is downloadable from homebrew
           #"calibre"
+          "utm"
         ];
         masApps = {
           "Telegram" = 747648890;
