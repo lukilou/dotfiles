@@ -23,9 +23,6 @@
           pkgs.neovim
           pkgs.emacs
           pkgs.tmux
-          
-          # Homebrew packages
-          #pkgs.asdf
           pkgs.btop
           pkgs.curl
           pkgs.fzf
@@ -61,8 +58,7 @@
           "dotnet-sdk"
           "mono-mdk"
           "qbittorrent"
-          # TODO: enable after calibre is downloadable from homebrew
-          #"calibre"
+          "calibre"
           "utm"
           "obsidian"
         ];
