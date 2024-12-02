@@ -48,7 +48,6 @@
           "firefox"
           "google-chrome"
           "iina"
-          "the-unarchiver"
           "vlc"
           "audacity"
           "docker"
