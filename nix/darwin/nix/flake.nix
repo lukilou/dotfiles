@@ -35,6 +35,8 @@
           pkgs.wget
           pkgs.pass
           pkgs.neofetch
+          pkgs.b2sum
+          pkgs.rfc
         ];
 
       homebrew = {
