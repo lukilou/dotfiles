@@ -37,6 +37,7 @@
           pkgs.neofetch
           pkgs.b2sum
           pkgs.rfc
+          pkgs.opam
         ];
 
       homebrew = {
