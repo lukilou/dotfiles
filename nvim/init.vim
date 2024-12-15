@@ -58,3 +58,5 @@ map <C-H> gT
 set visualbell 
 set t_vb=
 
+" Set clipboard copy/paste
+set clipboard=unnamedplus
