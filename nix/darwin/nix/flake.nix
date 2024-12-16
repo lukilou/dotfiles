@@ -22,6 +22,7 @@
           pkgs.mkalias
           pkgs.neovim
           pkgs.emacs
+          pkgs.libgccjit
           pkgs.tmux
           pkgs.btop
           pkgs.curl
