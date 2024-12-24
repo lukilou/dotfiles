@@ -54,7 +54,6 @@
           "iina"
           "vlc"
           "audacity"
-          "docker"
           "signal"
           "djview"
           "yacreader"
