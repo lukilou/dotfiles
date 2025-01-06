@@ -63,6 +63,8 @@
           "calibre"
           "utm"
           "obsidian"
+          "docker"
+          "monitorcontrol"
         ];
         masApps = {
           "Telegram" = 747648890;
