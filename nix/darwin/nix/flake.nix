@@ -65,6 +65,7 @@
           "obsidian"
           "docker"
           "monitorcontrol"
+          "hot"
         ];
         masApps = {
           "Telegram" = 747648890;
