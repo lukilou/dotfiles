@@ -46,6 +46,7 @@
         brews = [
           "mas"
           "zsh-syntax-highlighting"
+          "podman"
         ];
         casks = [
           "hammerspoon"
@@ -63,7 +64,6 @@
           "calibre"
           "utm"
           "obsidian"
-          "docker"
           "monitorcontrol"
           "hot"
         ];
