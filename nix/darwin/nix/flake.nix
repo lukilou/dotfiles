@@ -122,8 +122,12 @@
       };
 
       # Auto upgrade nix package and the daemon service.
-      services.nix-daemon.enable = true;
+      #services.nix-daemon.enable = true;
       # nix.package = pkgs.nix;
+
+      # For more changes description check this PR
+      # https://github.com/LnL7/nix-darwin/pull/1313/files
+      nix.enable = true;
 
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
