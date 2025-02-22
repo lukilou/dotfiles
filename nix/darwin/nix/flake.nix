@@ -19,6 +19,7 @@
       environment.systemPackages =
         [
           pkgs.alacritty
+          pkgs.kitty
           pkgs.mkalias
           pkgs.neovim
           pkgs.emacs
@@ -35,7 +36,7 @@
           pkgs.tree
           pkgs.wget
           pkgs.pass
-          pkgs.neofetch
+          pkgs.fastfetch
           pkgs.b2sum
           pkgs.rfc
           pkgs.opam
