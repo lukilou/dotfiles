@@ -1,0 +1,74 @@
+[user]
+  name = Dmytro Uhnichenko
+	email = dmytro@dmytro.guru
+	signingkey = ECA6BA67D0B4D3A0
+[push]
+  default = matching
+[alias]
+  st = status -sb
+  ci = commit
+  co = checkout
+  br = branch
+  di = diff
+  dc = diff --cached
+  dw = diff --word-diff
+  amend = commit --amend
+  aa = add --all
+  head = !git l -1
+  h = !git head
+  r = !git --no-pager l -20
+  ra = !git r --all
+  l = log --graph --abbrev-commit --date=relative
+  la = !git l --all
+  div = divergence
+  fa = fetch --all -p
+	d = difftool
+	dt = diff
+  li = ls-files . --exclude-standard --others
+	n = !git --no-pager
+[color]
+  ui = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[core]
+  editor = nvim -f
+  autocrlf = input
+  ignorecase = false
+	excludesfile = /Users/xentatt/.gitignore_global
+	attributesfile = /Users/xentatt/.gitattributes
+[apply]
+  whitespace = nowarn
+[format]
+  pretty = format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+[push]
+  default = current
+[github]
+  user = xentatt 
+[help]
+  autocorrect = 1
+[rerere]
+  enabled = 1
+[gui]
+  fontui = -family \"DejaVu Sans\" -size 12 -weight normal -slant roman -underline 0 -overstrike 0
+  fontdiff = -family \"DejaVu Sans Mono\" -size 12 -weight normal -slant roman -underline 0 -overstrike 0
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[branch]
+	autosetuprebase = always
+[commit]
+	gpgsign = false 
+
+[init]
+	defaultBranch = main
+[oh-my-zsh]
+	hide-info = 1
